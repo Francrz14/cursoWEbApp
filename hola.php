@@ -7,9 +7,10 @@
 </head>
 <body>
     <h1>hola</h1>
-    <p>s</p>
-    <p></p>
-    <p></p>
-    <p></p>
+    <p class="hola">hola</p>
+    <p class="hola">hola</p>
+    <p class="hola">hola</p>
+    <p class="hola">hola</p>
+    <p class="hola">hola</p>
 </body>
 </html>
