@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Mi primer Hola Mundo en PHP -->
     <?php
         echo 'Hola Mundo';
     ?>
