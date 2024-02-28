@@ -6,11 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hola</h1>
-    <p class="hola">hola</p>
-    <p class="hola">hola</p>
-    <p class="hola">hola</p>
-    <p class="hola">hola</p>
-    <p class="hola">hola</p>
+    <?php
+        echo 'Hola Mundo';
+    ?>
 </body>
 </html>
