@@ -18,7 +18,7 @@
 
     <?php
     function datos(){
-        global $nombre, $apellido, $edad;
+        global $nombre, $apellido, $edad, $ciudad;
         echo "<h2>Hola " .$nombre. " " .$apellido. "</h2>";
         echo "<h2>Edad $edad</h2>"; 
         echo "<h2>Ciudad $ciudad </h2>";
