@@ -10,8 +10,10 @@
         $nombre = "Fran";
         $apellido = "Ropero";
         $edad = 38;
+        $ciudad = "Linares";
         echo "<h2>Hola " .$nombre. " " .$apellido. "</h2>";
-        echo "<h2>Edad $edad</h2>";  
+        echo "<h2>Edad $edad</h2>"; 
+        echo "<h2>Ciudad $ciudad </h2>"; 
     ?>
 
     <?php
@@ -19,6 +21,8 @@
         global $nombre, $apellido, $edad;
         echo "<h2>Hola " .$nombre. " " .$apellido. "</h2>";
         echo "<h2>Edad $edad</h2>"; 
+        echo "<h2>Ciudad $ciudad </h2>";
+        exit;
     }
     datos();
     ?>
