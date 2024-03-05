@@ -15,11 +15,15 @@
             
         }
 
-        #contenido {
+        .contenido {
+            width: 500px;
+            height: 800px;
             text-align: center; 
             background-color: #f0f0f0; 
             padding: 20px;
-            border-radius: 10px; 
+            border: 3px solid black;
+            border-top-left-radius: 20px; 
+            border-bottom-right-radius: 20px;
         }
     </style>
 </head>
