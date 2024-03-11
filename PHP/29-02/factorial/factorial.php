@@ -17,6 +17,16 @@
     </style>
 </head>
 <body>
+<!-- La utilidad de la función Factorial:
+Es habitual utilizar funciones Factoriales para calcular combinaciones y permutaciones. 
+Gracias al Factorial se pueden llegar a calcular también probabilidades.
+
+Por ejemplo:
+
+Si tenemos 4 cuadros de colores y queremos colgarlos en la pared, uno detrás de otro podemos 
+llegar a calcular la cantidad de combinaciones posibles:
+4! = 1 * 2 * 3 * 4 = 24 combinaciones posibles -->
+
     <?php 
     // Definición de la función para calcular el factorial de un número
     function calcularFactorial($numero){

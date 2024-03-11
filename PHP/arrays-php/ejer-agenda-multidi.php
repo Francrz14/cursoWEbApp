@@ -16,8 +16,9 @@
         }
 
         .contenido {
+            color: blue;
             width: 500px;
-            height: 800px;
+            height: 750px;
             text-align: center; 
             background-color: #f0f0f0; 
             padding: 20px;
@@ -53,8 +54,9 @@
     //Mostrar resultados
     echo "Agenda de 3 contactos:<br>";
     echo "<hr>";
-
+    // Creamos un bucle que el array agenda lo mete en una variable llamada contacto
     foreach ($agenda as $contacto) {
+        // hace un bucle de contacto y saca los keys y los values y los muestra
         foreach ($contacto as $clave => $datos){
             echo $clave. ": ". $datos . "<br>";
         }
@@ -62,14 +64,16 @@
     }
 
     //Añadir Contacto nuevo
+    // añadimos un contacto nuevo en la agenda
     $agenda[] = array (
         "Nombre" => "Eduardo",
         "Teléfono" => 99999999,
         "Correo" => "ejemplo4@gmail.com"
     );
     echo "<hr>";
-
+    // Creamos un bucle que el array agenda lo mete en una variable llamada contacto
     foreach ($agenda as $contacto) {
+        // hace un bucle de contacto y saca los keys y los values y los muestra
         foreach ($contacto as $clave => $datos){
             echo $clave. ": ". $datos . "<br>";
         }
